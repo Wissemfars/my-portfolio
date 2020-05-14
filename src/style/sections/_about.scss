@@ -27,7 +27,7 @@
       display: flex;
       height: 100%;
       align-items: center;
-      justify-content: center;
+      justify-content: right;
 
       @include respond(tab-land) {
         height: 100%;
@@ -36,6 +36,7 @@
         padding-bottom: 6.4rem;
       }
     }
+    
 
     &__info {
       display: flex;
